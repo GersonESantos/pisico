@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Seção Hero */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.cta {
+    background-color: #ff9800;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #e67e22;
+}
+
+/* Seção Serviços */
+.services {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.service-box {
+    margin: 1rem 0;
+}
+
+/* Seção Testemunhos */
+.testimonials {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonial-box {
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+/* Seção Sobre Mim */
+.about {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img {
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.about p {
+    max-width: 600px;
+}
+
+/* Seção de Contato */
+.contact {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

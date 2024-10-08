@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Psicólogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Psicólogo GersonES</div>
+        <nav>
+            <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#testimonials">Testemunhos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Abertura -->
+    <section class="hero">
+        <h1>Encontre Apoio Emocional e Bem-Estar</h1>
+        <p>Terapia individual e de casal para ajudá-lo a superar desafios emocionais e construir uma vida equilibrada.</p>
+        <a href="#contact" class="cta">Agende sua Consulta Inicial</a>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services" class="services">
+        <h2>Serviços</h2>
+        <div class="service-box">
+            <h3>Terapia para Ansiedade e Estresse</h3>
+            <p>Ajude sua mente a encontrar a calma que você merece.</p>
+        </div>
+        <div class="service-box">
+            <h3>Terapia de Casal</h3>
+            <p>Fortaleça seus relacionamentos e construa conexões mais saudáveis.</p>
+        </div>
+        <div class="service-box">
+            <h3>Apoio em Situações de Luto</h3>
+            <p>Suporte emocional em momentos de perda.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Testemunhos -->
+    <section id="testimonials" class="testimonials">
+        <h2>Depoimentos</h2>
+        <div class="testimonial-box">
+            <p>"Minha experiência com o Dr. João foi transformadora. Encontrei apoio e confiança para lidar com meus desafios emocionais."</p>
+            <span>- Paciente Anônimo</span>
+        </div>
+        <div class="testimonial-box">
+            <p>"O cuidado e a atenção que recebi na terapia foram fundamentais para minha recuperação emocional."</p>
+            <span>- Paciente Anônimo</span>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="about" class="about">
+        <h2>Sobre Mim</h2>
+        <div class="about-container">
+            <img src="https://avatars.githubusercontent.com/u/172892640?v=4" alt="Foto do Psicólogo">
+            <div>
+                <p>Olá, sou GersonES, psicólogo especializado em Terapia Cognitivo-Comportamental com mais de 10 anos de experiência. Acredito que a terapia é uma ferramenta poderosa para a transformação pessoal e estou aqui para ajudá-lo a viver uma vida mais plena e equilibrada.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Como posso ajudar?</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 Psicólogo GersonES | CRP 12345-SP | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
