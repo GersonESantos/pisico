@@ -41,7 +41,7 @@ header nav ul li a {
 
 /* Seção Hero */
 .hero {
-    background: url('background.jpg') no-repeat center center/cover;
+    background: url('fundo.png') no-repeat center center/cover;
     color: white;
     padding: 4rem 1rem;
     text-align: center;
